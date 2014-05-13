@@ -70,6 +70,8 @@
 			});
 
 		});
+		$(window).resize();
+
 	};
   
 }( jQuery ));
