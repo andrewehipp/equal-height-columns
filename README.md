@@ -12,7 +12,7 @@ Add the attribute 'data-mh-breakpoint' to the each '.match-height' element to se
 #####Example#####
 class="match-height" data-mh-breakpoint="992"
 
-####data-match-height####
+####data-mh-scale####
 Add the attribute 'data-mh-scale' to the each '.match' element to set have it's height set as a fraction of the largest '.match' element. Accepts a numerical string.
 
 #####Example#####
