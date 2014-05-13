@@ -4,10 +4,16 @@ Create groups of content (.match-height) that match the tallest height of the de
 
 You can use as many groups on a page as needed.
 
-##Options##
+##Data Attributes##
 
 ####data-match-height####
-Add the attribute 'data-match-height' to the each 'match-height' element to set a responsive breakpoint. This will let you set custom breakpoints for each use. Accepts a numerical string.
+Add the attribute 'data-mh-breakpoint' to the each '.match-height' element to set a different responsive breakpoint for that element's children. Default is '768'.
 
 #####Example#####
-&lt;div class="match-height" data-match-height="992"&gt;
+class="match-height" data-mh-breakpoint="992"
+
+####data-match-height####
+Add the attribute 'data-mh-scale' to the each '.match' element to set have it's height set as a fraction of the largest '.match' element. Accepts a numerical string.
+
+#####Example#####
+class="match" data-mh-scale=".5"
